@@ -11,6 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScatterTagWeb.Tests", "Scat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{88AF54FA-0E1A-4FBD-A79D-8B7887826CC0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Queries", "Queries", "{8BA1B133-2ADB-4049-AD67-B7AD2C0E60ED}"
+	ProjectSection(SolutionItems) = preProject
+		Queries\RunMe.sql = Queries\RunMe.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
