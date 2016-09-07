@@ -56,6 +56,7 @@
     </EntityDeploy>
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.Config" />
     <None Include="ScatterTagDataModel.edmx.diagram">
       <DependentUpon>ScatterTagDataModel.edmx</DependentUpon>
     </None>

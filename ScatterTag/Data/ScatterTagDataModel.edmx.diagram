@@ -4,7 +4,9 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="f057ccadb27748aa93107b628ab6570d" Name="Diagram1" />
+      <Diagram DiagramId="f057ccadb27748aa93107b628ab6570d" Name="Diagram1" >
+        <EntityTypeShape EntityType="ScatterTagDataModel.FileMetadata" Width="1.5" PointX="7.375" PointY="3" />
+      </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
 </edmx:Edmx>

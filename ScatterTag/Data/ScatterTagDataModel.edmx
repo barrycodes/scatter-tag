@@ -13,7 +13,17 @@
     <edmx:ConceptualModels>
       <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ScatterTagDataModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
         <EntityContainer Name="ScatterTagDataModelContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="FileMetadatas" EntityType="ScatterTagDataModel.FileMetadata" />
         </EntityContainer>
+        <EntityType Name="FileMetadata">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Length" Type="Int64" Nullable="false" />
+          <Property Name="PreviewHash" Type="Binary" Nullable="false" FixedLength="false" MaxLength="64" />
+          <Property Name="TotalHash" Type="String" Nullable="false" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
